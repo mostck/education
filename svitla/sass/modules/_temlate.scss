@@ -1,0 +1,155 @@
+body {
+  font-size: $baseFontSize;
+  font-family: $baseFontFamily;
+  color: $colorText;
+}
+
+p,a,span,h1,h2,h3,h4,h5,h6{
+  margin:0;
+}
+a{
+  color: $colorLink;
+  text-decoration: none;
+  &:hover,
+  &:focus{
+    color: $colorLinkHover;
+    text-decoration: underline;
+  }
+}
+.displayNone {
+  display: none;
+}
+.widthResize {
+  width: 100%;
+}
+.center {
+  margin: auto;
+  display: block;
+}
+.floutL {
+  float: left;
+}
+.floutR {
+  float: right;
+}
+.textCenter {
+   text-align: center;
+ }
+.bold {
+  font-weight: bold;
+}
+
+.shadow {
+  @include boxShadow(0px, 1px, 0px);
+}
+
+.btn {
+  padding: 1em;
+  border: none;
+  @include borderRadius(5px);
+}
+.btnPrime {
+  background: $colorPrime;
+  color: $colorWhite;
+  &:hover {
+  }
+}
+//
+//  header
+//
+
+.header {
+  //fixed header
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: $headerBgWithOpacity;
+  //fixed header
+  border-bottom: {
+    color: $borderColor;
+    width: 1px;
+    style: solid;
+  }
+}
+.headerWrapLogo {
+  float: left;
+  margin-top: 1.3em;
+}
+
+//
+//  main
+//
+
+.mainBody {
+  background: url("../images/template/bgBody.jpg");
+  //fixed header
+  padding-top: 7em;
+  //fixed header
+  padding-bottom: 2em;
+}
+.mainTitle {
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+.mainWrapSubTitle {
+  padding: 2em 0 4em 0;
+}
+.mainSubTitle {
+  font-size: 2.5em;
+}
+.mainSubText {
+  font-size: 1.3em;
+}
+.mainTitleWrap {
+  margin-bottom: 2em;
+}
+
+//
+//  footer
+//
+.footer{
+  padding: 3em 0;
+  background: $footerBg;
+  color: $colorTextFooter;
+}
+.footerText {
+  font-size: 0.85em;
+}
+.footerTextWrap {
+  padding: 0 1em  1em  1em;
+}
+.footerNavWrap {
+  padding-bottom: 1em;
+}
+.footerNavSocialWrap {
+  padding-bottom: 1em;
+}
+.footerImageWrap {
+  padding-bottom: 1em;
+}
+
+//
+//  right
+//
+
+.rightContentWrap {
+  padding: 0 0 0 2em;
+}
+.rightContentWrap p{
+  padding-bottom: 1em;
+}
+
+@media (max-width: 767px) {
+  .rightContentWrap {
+    padding: 0 0 1em 0;
+  }
+  .header {
+    position:static;
+    background: $headerBg;
+  }
+  .mainBody {
+    padding-top: 2em;
+  }
+}

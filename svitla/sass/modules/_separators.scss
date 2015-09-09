@@ -1,0 +1,30 @@
+@mixin separatorsStyle {
+  color: $separatorsColor;
+  width: 1px;
+  style: dotted;
+}
+
+.mainSeparators {
+  border-bottom: {
+    @include separatorsStyle;
+  }
+  border-top: {
+    @include separatorsStyle;
+  }
+  padding:1px 0;
+}
+
+.mainSeparators > div {
+  border-bottom: {
+    @include separatorsStyle;
+  }
+  border-top: {
+    @include separatorsStyle;
+  }
+}
+
+.separators {
+  border-bottom: {
+    @include separatorsStyle;
+  }
+}

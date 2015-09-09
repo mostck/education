@@ -1,0 +1,40 @@
+//
+//  about
+//
+
+.aboutContentWrap {
+  padding-bottom: 4em;
+}
+.aboutPersonImage {
+  @include borderRadius(50%);
+}
+.aboutPersonSeparator {
+  margin: auto;
+  width: 60%;
+  margin-bottom: 1em;
+}
+.aboutSeparatorsWrap{
+  margin-bottom: 4em;
+}
+.aboutTitle {
+  font-size: 1.3em;
+}
+.aboutSubTitle {
+  color: $colorContentSubTitle;
+}
+.aboutImageWrap{
+  padding-bottom: 1em;
+}
+.aboutTitleWrap{
+  padding-bottom: 1em;
+}
+.aboutText {
+  padding: 0 1em;
+}
+.aboutDiagrammaText {
+  font-size: 1.3em;
+  font-weight: bold;
+  position: absolute;
+  width: 100%;
+  top: convertPxToEm(17px);
+}

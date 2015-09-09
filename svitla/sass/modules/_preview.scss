@@ -1,0 +1,20 @@
+.previewContent p {
+  color: $colorContentSubTitle;
+}
+.previewSubTitle {
+  color: $colorText;
+}
+.previewLink {
+  font-size: 0.85em;
+  text-transform: uppercase;
+}
+.previewImg {
+  margin-bottom: 1em;
+}
+.previewLinkWrap {
+  @include clear;
+  margin-bottom: 1em;
+}
+.previewSeparatorsWrap {
+  margin: 1em 0;
+}

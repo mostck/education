@@ -1,0 +1,23 @@
+.portfolioContentWrap {
+  margin: auto auto 2em;
+  display: table;
+  overflow: hidden;
+}
+.portfolioContent {
+  background: $portfolioContentBg;
+  @include borderRadius(5px);
+  @include boxShadow(0px, 2px, 0px);
+}
+.portfolioContent a:hover img {
+  @include opacity;
+}
+.portfolioContentInnerWrap {
+  margin: 0.3em 1em 0.7em 1em;
+}
+.portfolioSeparatorsWrap {
+  margin: 0.5em 0;
+}
+.portfolioTag {
+  font-size: 0.85em;
+  color: $colorContentSubTitle;
+}

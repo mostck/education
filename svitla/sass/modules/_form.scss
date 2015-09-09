@@ -1,0 +1,33 @@
+.formWrap {
+  margin-bottom: 2em;
+}
+.inputText {
+  outline: none;
+  display: block;
+  padding: 1em;
+  border: 1px solid $borderColor;
+  @include borderRadius(5px);
+  &:focus {
+    border: 1px solid $colorPrime;
+  }
+}
+
+.inputTextWrap {
+  padding-right: 2em;
+  padding-bottom: 1.5em;
+}
+.inputTextLeftWrap {
+   padding-right: 3em;
+}
+.inputTextRightWrap {
+  padding-left: 1em;
+}
+
+@media (max-width: 767px) {
+  .inputTextLeftWrap {
+    padding-right: 2em;
+  }
+  .inputTextRightWrap {
+    padding-left: 0;
+  }
+}

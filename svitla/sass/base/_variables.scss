@@ -1,0 +1,35 @@
+$baseFontSize: 14px;
+$baseFontFamily: "Open Sans",sans-serif;
+
+$colorWhite: #fff;
+$colorDarkWhite: #f5f5f5;
+$colorGreyLightAluminum: #dbdbdb;
+$colorGreyAluminum: #c5c4c4;
+$colorGrey: #9d9b9b;
+$colorGreyDark: #444444;
+$colorBlack: #000;
+
+$colorPrime:#ff7e00;
+
+$headerBg: $colorWhite;
+$headerBgWithOpacity: rgba(255,255,255,0.65);
+$headerNavHACK: rgba(255,255,255,0);
+
+$colorShadow: $colorGreyAluminum;
+
+$colorLinkFooter: $colorWhite;
+$colorTextFooter: $colorGrey;
+
+$colorText: $colorGreyDark;
+$colorLink: $colorPrime;
+$colorLinkHover: $colorPrime;
+
+$colorContentSubTitle: $colorGrey;
+
+$portfolioContentBg: $colorWhite;
+$borderColor: $colorGreyLightAluminum;
+$footerBg: $colorGreyDark;
+
+$separatorsColor: $colorGreyAluminum;
+
+$responsiveNavColor: $colorDarkWhite;

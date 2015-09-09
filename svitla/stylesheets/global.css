@@ -1,0 +1,669 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot?-13ya2v");
+  src: url("../fonts/icomoon.eot?#iefix-13ya2v") format("embedded-opentype"), url("../fonts/icomoon.woff?-13ya2v") format("woff"), url("../fonts/icomoon.ttf?-13ya2v") format("truetype"), url("../fonts/icomoon.svg?-13ya2v#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 12, ../sass/base/_icon.scss */
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 26, ../sass/base/_icon.scss */
+.icon-facebook:before {
+  content: "\e600";
+}
+
+/* line 30, ../sass/base/_icon.scss */
+.icon-twitter:before {
+  content: "\e601";
+}
+
+/* line 34, ../sass/base/_icon.scss */
+.icon-vimeo:before {
+  content: "\e602";
+}
+
+/* line 38, ../sass/base/_icon.scss */
+.icon-tumblr:before {
+  content: "\e603";
+}
+
+/* line 42, ../sass/base/_icon.scss */
+.icon-google:before {
+  content: "\e604";
+}
+
+/* line 46, ../sass/base/_icon.scss */
+.icon-behance:before {
+  content: "\e605";
+}
+
+/* line 50, ../sass/base/_icon.scss */
+.icon-dribbble:before {
+  content: "\e606";
+}
+
+/* line 54, ../sass/base/_icon.scss */
+.icon-left:before {
+  content: "\e607";
+}
+
+/* line 58, ../sass/base/_icon.scss */
+.icon-right:before {
+  content: "\e608";
+}
+
+/* line 1, ../sass/modules/_temlate.scss */
+body {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+/* line 7, ../sass/modules/_temlate.scss */
+p, a, span, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+/* line 10, ../sass/modules/_temlate.scss */
+a {
+  color: #ff7e00;
+  text-decoration: none;
+}
+/* line 13, ../sass/modules/_temlate.scss */
+a:hover, a:focus {
+  color: #ff7e00;
+  text-decoration: underline;
+}
+
+/* line 19, ../sass/modules/_temlate.scss */
+.displayNone {
+  display: none;
+}
+
+/* line 22, ../sass/modules/_temlate.scss */
+.widthResize {
+  width: 100%;
+}
+
+/* line 25, ../sass/modules/_temlate.scss */
+.center {
+  margin: auto;
+  display: block;
+}
+
+/* line 29, ../sass/modules/_temlate.scss */
+.floutL {
+  float: left;
+}
+
+/* line 32, ../sass/modules/_temlate.scss */
+.floutR {
+  float: right;
+}
+
+/* line 35, ../sass/modules/_temlate.scss */
+.textCenter {
+  text-align: center;
+}
+
+/* line 38, ../sass/modules/_temlate.scss */
+.bold {
+  font-weight: bold;
+}
+
+/* line 42, ../sass/modules/_temlate.scss */
+.shadow {
+  -webkit-box-shadow: 0px 1px 0px #c5c4c4;
+  -moz-box-shadow: 0px 1px 0px #c5c4c4;
+  box-shadow: 0px 1px 0px #c5c4c4;
+}
+
+/* line 46, ../sass/modules/_temlate.scss */
+.btn {
+  padding: 1em;
+  border: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 51, ../sass/modules/_temlate.scss */
+.btnPrime {
+  background: #ff7e00;
+  color: #fff;
+}
+
+/* line 61, ../sass/modules/_temlate.scss */
+.header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0.65);
+  border-bottom-color: #dbdbdb;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+/* line 74, ../sass/modules/_temlate.scss */
+.headerWrapLogo {
+  float: left;
+  margin-top: 1.3em;
+}
+
+/* line 83, ../sass/modules/_temlate.scss */
+.mainBody {
+  background: url("../images/template/bgBody.jpg");
+  padding-top: 7em;
+  padding-bottom: 2em;
+}
+
+/* line 90, ../sass/modules/_temlate.scss */
+.mainTitle {
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+
+/* line 96, ../sass/modules/_temlate.scss */
+.mainWrapSubTitle {
+  padding: 2em 0 4em 0;
+}
+
+/* line 99, ../sass/modules/_temlate.scss */
+.mainSubTitle {
+  font-size: 2.5em;
+}
+
+/* line 102, ../sass/modules/_temlate.scss */
+.mainSubText {
+  font-size: 1.3em;
+}
+
+/* line 105, ../sass/modules/_temlate.scss */
+.mainTitleWrap {
+  margin-bottom: 2em;
+}
+
+/* line 112, ../sass/modules/_temlate.scss */
+.footer {
+  padding: 3em 0;
+  background: #444444;
+  color: #9d9b9b;
+}
+
+/* line 117, ../sass/modules/_temlate.scss */
+.footerText {
+  font-size: 0.85em;
+}
+
+/* line 120, ../sass/modules/_temlate.scss */
+.footerTextWrap {
+  padding: 0 1em  1em  1em;
+}
+
+/* line 123, ../sass/modules/_temlate.scss */
+.footerNavWrap {
+  padding-bottom: 1em;
+}
+
+/* line 126, ../sass/modules/_temlate.scss */
+.footerNavSocialWrap {
+  padding-bottom: 1em;
+}
+
+/* line 129, ../sass/modules/_temlate.scss */
+.footerImageWrap {
+  padding-bottom: 1em;
+}
+
+/* line 137, ../sass/modules/_temlate.scss */
+.rightContentWrap {
+  padding: 0 0 0 2em;
+}
+
+/* line 140, ../sass/modules/_temlate.scss */
+.rightContentWrap p {
+  padding-bottom: 1em;
+}
+
+@media (max-width: 767px) {
+  /* line 145, ../sass/modules/_temlate.scss */
+  .rightContentWrap {
+    padding: 0 0 1em 0;
+  }
+
+  /* line 148, ../sass/modules/_temlate.scss */
+  .header {
+    position: static;
+    background: #fff;
+  }
+
+  /* line 152, ../sass/modules/_temlate.scss */
+  .mainBody {
+    padding-top: 2em;
+  }
+}
+/* line 2, ../sass/modules/_nav.scss */
+.nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+/* line 6, ../sass/modules/_nav.scss */
+.nav > ul > li {
+  display: block;
+}
+/* line 8, ../sass/modules/_nav.scss */
+.nav > ul > li > a {
+  display: block;
+  text-decoration: none;
+}
+
+/* line 32, ../sass/modules/_nav.scss */
+.navFooter {
+  text-align: center;
+}
+/* line 16, ../sass/modules/_nav.scss */
+.navFooter > ul {
+  text-transform: uppercase;
+}
+/* line 18, ../sass/modules/_nav.scss */
+.navFooter > ul > li {
+  display: inline;
+}
+/* line 20, ../sass/modules/_nav.scss */
+.navFooter > ul > li > a {
+  display: inline-block;
+  padding: 0 0.71429em;
+}
+/* line 23, ../sass/modules/_nav.scss */
+.navFooter > ul > li > a[class^='icon-'] {
+  font-size: 1.5em;
+  padding: 0 0.4em;
+  border-bottom: none;
+}
+/* line 19, ../sass/base/_mixins.scss */
+.navFooter > ul:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+/* line 38, ../sass/modules/_nav.scss */
+.navFooter > ul > li > a {
+  color: #ff7e00;
+}
+/* line 40, ../sass/modules/_nav.scss */
+.navFooter > ul > li > a:hover, .navFooter > ul > li > a:focus {
+  color: #fff;
+}
+
+/* line 48, ../sass/modules/_nav.scss */
+.navFooterSocial {
+  text-align: center;
+}
+/* line 16, ../sass/modules/_nav.scss */
+.navFooterSocial > ul {
+  text-transform: uppercase;
+}
+/* line 18, ../sass/modules/_nav.scss */
+.navFooterSocial > ul > li {
+  display: inline;
+}
+/* line 20, ../sass/modules/_nav.scss */
+.navFooterSocial > ul > li > a {
+  display: inline-block;
+  padding: 0 0.71429em;
+}
+/* line 23, ../sass/modules/_nav.scss */
+.navFooterSocial > ul > li > a[class^='icon-'] {
+  font-size: 1.5em;
+  padding: 0 0.4em;
+  border-bottom: none;
+}
+/* line 19, ../sass/base/_mixins.scss */
+.navFooterSocial > ul:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+/* line 54, ../sass/modules/_nav.scss */
+.navFooterSocial > ul > li > a {
+  color: #fff;
+}
+/* line 56, ../sass/modules/_nav.scss */
+.navFooterSocial > ul > li > a:hover, .navFooterSocial > ul > li > a:focus {
+  color: #ff7e00;
+}
+
+/* line 64, ../sass/modules/_nav.scss */
+.navMain {
+  float: right;
+}
+/* line 16, ../sass/modules/_nav.scss */
+.navMain > ul {
+  text-transform: uppercase;
+}
+/* line 18, ../sass/modules/_nav.scss */
+.navMain > ul > li {
+  display: inline;
+}
+/* line 20, ../sass/modules/_nav.scss */
+.navMain > ul > li > a {
+  display: inline-block;
+  padding: 0 0.71429em;
+}
+/* line 23, ../sass/modules/_nav.scss */
+.navMain > ul > li > a[class^='icon-'] {
+  font-size: 1.5em;
+  padding: 0 0.4em;
+  border-bottom: none;
+}
+/* line 69, ../sass/modules/_nav.scss */
+.navMain > ul > li.active a {
+  color: #ff7e00;
+  font-weight: bold;
+}
+/* line 73, ../sass/modules/_nav.scss */
+.navMain > ul > li > a {
+  padding-top: 1.8em;
+  padding-bottom: 1.6em;
+  color: #444444;
+  border-bottom-color: rgba(255, 255, 255, 0);
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+}
+/* line 83, ../sass/modules/_nav.scss */
+.navMain > ul > li > a:hover, .navMain > ul > li > a:focus {
+  color: #ff7e00;
+  border-bottom-color: #ff7e00;
+}
+
+/* line 96, ../sass/modules/_nav.scss */
+.navMain .responsive-tab {
+  display: none;
+}
+
+/* line 99, ../sass/modules/_nav.scss */
+.navMain .responsive-tab._close a {
+  background: url("../images/template/close.png") no-repeat;
+}
+
+@media (max-width: 767px) {
+  /* line 103, ../sass/modules/_nav.scss */
+  .navMain {
+    float: none;
+  }
+  /* line 105, ../sass/modules/_nav.scss */
+  .navMain .responsive-tab {
+    display: block;
+    float: right;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    margin-right: 2em;
+  }
+  /* line 111, ../sass/modules/_nav.scss */
+  .navMain .responsive-tab a {
+    display: block;
+    height: 28px;
+    width: 35px;
+    background: url("../images/template/menu.png") no-repeat;
+  }
+  /* line 118, ../sass/modules/_nav.scss */
+  .navMain > ul {
+    text-align: center;
+    position: absolute;
+    top: 5em;
+    margin-left: -15px;
+    background: #f5f5f5;
+    z-index: 1;
+    width: 100%;
+  }
+  /* line 126, ../sass/modules/_nav.scss */
+  .navMain > ul > li {
+    display: none;
+    width: 100%;
+    border-bottom-color: #dbdbdb;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+  }
+  /* line 134, ../sass/modules/_nav.scss */
+  .navMain > ul > li.active a, .navMain > ul > li a, .navMain > ul > li a:hover, .navMain > ul > li a:focus {
+    border-bottom: none;
+  }
+  /* line 137, ../sass/modules/_nav.scss */
+  .navMain > ul > li > a {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    font-size: 1.42857em;
+  }
+}
+@media (min-width: 768px) {
+  /* line 147, ../sass/modules/_nav.scss */
+  .navMain > ul > li._collapsed {
+    display: inline !important;
+  }
+}
+/* line 7, ../sass/modules/_separators.scss */
+.mainSeparators {
+  border-bottom-color: #c5c4c4;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  border-top-color: #c5c4c4;
+  border-top-width: 1px;
+  border-top-style: dotted;
+  padding: 1px 0;
+}
+
+/* line 17, ../sass/modules/_separators.scss */
+.mainSeparators > div {
+  border-bottom-color: #c5c4c4;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+  border-top-color: #c5c4c4;
+  border-top-width: 1px;
+  border-top-style: dotted;
+}
+
+/* line 26, ../sass/modules/_separators.scss */
+.separators {
+  border-bottom-color: #c5c4c4;
+  border-bottom-width: 1px;
+  border-bottom-style: dotted;
+}
+
+/* line 5, ../sass/modules/_about.scss */
+.aboutContentWrap {
+  padding-bottom: 4em;
+}
+
+/* line 8, ../sass/modules/_about.scss */
+.aboutPersonImage {
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+/* line 11, ../sass/modules/_about.scss */
+.aboutPersonSeparator {
+  margin: auto;
+  width: 60%;
+  margin-bottom: 1em;
+}
+
+/* line 16, ../sass/modules/_about.scss */
+.aboutSeparatorsWrap {
+  margin-bottom: 4em;
+}
+
+/* line 19, ../sass/modules/_about.scss */
+.aboutTitle {
+  font-size: 1.3em;
+}
+
+/* line 22, ../sass/modules/_about.scss */
+.aboutSubTitle {
+  color: #9d9b9b;
+}
+
+/* line 25, ../sass/modules/_about.scss */
+.aboutImageWrap {
+  padding-bottom: 1em;
+}
+
+/* line 28, ../sass/modules/_about.scss */
+.aboutTitleWrap {
+  padding-bottom: 1em;
+}
+
+/* line 31, ../sass/modules/_about.scss */
+.aboutText {
+  padding: 0 1em;
+}
+
+/* line 34, ../sass/modules/_about.scss */
+.aboutDiagrammaText {
+  font-size: 1.3em;
+  font-weight: bold;
+  position: absolute;
+  width: 100%;
+  top: 1.21429em;
+}
+
+/* line 1, ../sass/modules/_portfolio.scss */
+.portfolioContentWrap {
+  margin: auto auto 2em;
+  display: table;
+  overflow: hidden;
+}
+
+/* line 6, ../sass/modules/_portfolio.scss */
+.portfolioContent {
+  background: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 2px 0px #c5c4c4;
+  -moz-box-shadow: 0px 2px 0px #c5c4c4;
+  box-shadow: 0px 2px 0px #c5c4c4;
+}
+
+/* line 11, ../sass/modules/_portfolio.scss */
+.portfolioContent a:hover img {
+  filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+
+/* line 14, ../sass/modules/_portfolio.scss */
+.portfolioContentInnerWrap {
+  margin: 0.3em 1em 0.7em 1em;
+}
+
+/* line 17, ../sass/modules/_portfolio.scss */
+.portfolioSeparatorsWrap {
+  margin: 0.5em 0;
+}
+
+/* line 20, ../sass/modules/_portfolio.scss */
+.portfolioTag {
+  font-size: 0.85em;
+  color: #9d9b9b;
+}
+
+/* line 1, ../sass/modules/_preview.scss */
+.previewContent p {
+  color: #9d9b9b;
+}
+
+/* line 4, ../sass/modules/_preview.scss */
+.previewSubTitle {
+  color: #444444;
+}
+
+/* line 7, ../sass/modules/_preview.scss */
+.previewLink {
+  font-size: 0.85em;
+  text-transform: uppercase;
+}
+
+/* line 11, ../sass/modules/_preview.scss */
+.previewImg {
+  margin-bottom: 1em;
+}
+
+/* line 14, ../sass/modules/_preview.scss */
+.previewLinkWrap {
+  margin-bottom: 1em;
+}
+/* line 19, ../sass/base/_mixins.scss */
+.previewLinkWrap:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+/* line 18, ../sass/modules/_preview.scss */
+.previewSeparatorsWrap {
+  margin: 1em 0;
+}
+
+/* line 1, ../sass/modules/_form.scss */
+.formWrap {
+  margin-bottom: 2em;
+}
+
+/* line 4, ../sass/modules/_form.scss */
+.inputText {
+  outline: none;
+  display: block;
+  padding: 1em;
+  border: 1px solid #dbdbdb;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 10, ../sass/modules/_form.scss */
+.inputText:focus {
+  border: 1px solid #ff7e00;
+}
+
+/* line 15, ../sass/modules/_form.scss */
+.inputTextWrap {
+  padding-right: 2em;
+  padding-bottom: 1.5em;
+}
+
+/* line 19, ../sass/modules/_form.scss */
+.inputTextLeftWrap {
+  padding-right: 3em;
+}
+
+/* line 22, ../sass/modules/_form.scss */
+.inputTextRightWrap {
+  padding-left: 1em;
+}
+
+@media (max-width: 767px) {
+  /* line 27, ../sass/modules/_form.scss */
+  .inputTextLeftWrap {
+    padding-right: 2em;
+  }
+
+  /* line 30, ../sass/modules/_form.scss */
+  .inputTextRightWrap {
+    padding-left: 0;
+  }
+}
