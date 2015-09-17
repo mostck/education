@@ -120,7 +120,20 @@ $(function() {
       _.each(this.collection.models, function(model) {
         this.$el.append(this.template(model.toJSON()));
       }, this);
+      this.mobile();
       return this;
+    },
+
+    mobile: function() {
+      var listItems = $(".navMain").find("li").has("a:not([class ^= icon-])");
+      var button = $("#responsive-tab");
+
+      button.click( function(e){
+        e.preventDefault();
+        button.toggleClass("_close");
+        listItems.slideToggle("fast");
+        listItems.addClass("_collapsed");
+      });
     }
 
   });
